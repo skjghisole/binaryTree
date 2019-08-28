@@ -2,7 +2,7 @@ const Express = require('express')
 const Tree = require('./Tree')
 const tree = new Tree()
 
-
+const port = process.env.PORT || 3000
 
 const seedValues = (amt = 100) => {
 	for (let i = 0; i <= 10; i++) {
@@ -37,7 +37,7 @@ app.use('/reset', (req, res) => {
 	res.send('Tree Resetted')
 })
 
-app.listen(3000, () => console.log('http://localhost:3000'))
+app.listen(port, () => console.log(`http://localhost:${port}`))
 
 
 // console.log(JSON.stringify(tree))
