@@ -16,6 +16,21 @@ Which returns a generated tree with a maximum of 10 nodes from 0 - 100 as defaul
 ```shell
 https://skjghisole-tree.herokuapp.com/tree/{value}
 ```
+Is the same as the above but instead of 100 as default, it generates tree with a maximum of 10 nodes from 0 - value
+
+3. /traverse
+```shell
+https://skjghisole-tree.herokuapp.com/traverse
+```
+This returns the traversed(sorted) values of the tree
+
+and lastly...
+
+4. /reset
+```shell
+https://skjghisole-tree.herokuapp.com/reset
+```
+This just resets the tree
 
 ## Visit here to test it out
 https://skjghisole-tree.herokuapp.com/
