@@ -4,6 +4,18 @@
 
 It has tree traversals and binary search
 
+## What's inside? 🚀
+    .
+    ├── public
+    ├── Node.js
+    ├── Tree.js
+    ├── index.js
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
+    
+This implementation uses Express and Node.js that runs our backend and plain HTML and CSS on the frontend
+
 ## How does this work? 🤔
 So we currently have 4 endpoints for this
 1. /tree
